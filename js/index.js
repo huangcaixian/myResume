@@ -49,6 +49,3 @@ music.addEventListener("click", function () {
     music.className = "music";
 }, false);
 
-$('html').one('touchstart',function(){
-  audio.play()
-})
